@@ -1,0 +1,340 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.hidden { display: none; }
+
+body {
+	font-family: Georgia, Times, Serif;
+	font-size: 10pt;
+	color: #394615;
+	background: black;
+}
+
+a:hover {
+	color: #FF8C00;
+	text-decoration: none;
+}
+
+a img {
+	border: 0px;
+}
+
+#pagecontainer {
+	margin: auto;
+	width: 850px;
+	padding: 20px 0 20px 0;
+}
+
+/*************************HEADER Styles***************************/
+#header {
+	background: #FF69B4;
+	color: #394615;
+	text-align: center;
+	height: 170px; /* height should be 170px */
+	overflow: hidden;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+/*
+#line {
+	width: inherit;
+	height: 10px;
+	background: #FF8C00;
+}
+*/
+/*************************End HEADER Styles***************************/
+
+/*************************Navbar Styles***************************/
+#navbar {
+	float: left;
+	clear: left;
+	width: 100%;
+	background: #FF8C00;
+	height: 29px;
+	/*border-bottom: 2px solid #FF8C00;*/
+	font-size: 11pt;
+}
+
+#navbar ul {
+	margin: 0 0 0 35px;
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: url("../images/navbarback.png") no-repeat;
+	background-position: 0 -50px;
+}
+
+#navbar a {
+	display: block;
+	padding: 5px 16px 7px 10px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#navbar a:hover {
+	color: #394615;
+	/*text-decoration: underline;*/
+}
+
+#navbar li:hover {
+	background-position: 0 0;
+}
+
+#about #nav-about , #details #nav-details,
+#party #nav-party, #guestbook #nav-guestbook,
+#accommodations #nav-accommodations, #gifts #nav-gifts,
+#rsvp #nav-rsvp {
+	background-position: 0 0;
+}
+
+#about  #nav-about  a, #details #nav-details a,
+#party #nav-party a, #guestbook #nav-guestbook a,
+#accommodations #nav-accommodations a, #gifts #nav-gifts a,
+#rsvp #nav-rsvp a {
+	color: #394615;
+}
+
+/*************************End Navbar Styles***************************/
+
+/*************************CONTENT Styles***************************/
+#content {
+	clear: left;
+	background: #FFF;
+	padding: 20px 25px 10px 25px;
+	color: #394615;
+	/*line-height: 18px;*/
+}
+
+#content h2, h3 {
+	text-align: left;
+	padding: 0 0 10px 0;
+}
+#content p {
+	margin: 0px 0px 15px;
+	padding: 0 0 5px 0;
+}
+
+.center {
+	text-align: center;
+}
+
+#content div.image {
+	float: left;
+	width: 400px;
+	text-align:center;
+}
+
+#content div.image h3 {
+	text-align:center;
+}
+
+#content div.image img {
+	margin-bottom: 10px;
+}
+
+div.clear {
+	clear:both;
+}
+
+img.about {
+	float: right;
+	clear: right;
+	margin: 5px;
+	padding: 5px;
+	border: 1px dashed #FF69B4;
+}
+
+#accommodations ol {
+		margin: 0px 0px 0px 20px;
+}
+
+#accommodations ol li {
+		font-weight: bold;
+}
+
+.unbold {
+	font-weight:normal;
+}
+/*************************End CONTENT Styles***************************/
+
+/*************************Begin GUESTBOOK Styles***************************/
+div.guestbook {
+	width:405px;
+	margin:auto;
+}
+
+div.guestbook fieldset {
+	padding-top: 20px;
+	border: 1px solid #394615;
+}
+
+div.guestbook legend {
+	margin-left: 10px;
+	padding: 2px 6px;
+	color: #fff;
+	background: #FF8C00;
+	border: 1px solid #394615;
+}
+
+div.guestbook input {
+	margin-top: 5px;
+	width: 262px;
+}
+
+div.guestbook label {
+	width: 100px;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	display: block
+}
+
+div.guestbook .submit input {
+	width: 80px;
+	margin-left: 110px;
+	color: #fff;
+	background: #FF69B4;
+	border: 2px outset #d7b9c9;
+}
+
+div.guestbook .submit #reset {
+	margin-left: 10px;
+}
+
+hr {
+	height: 2px;
+	/*color: #FF69B4;*/
+	border: 0px;
+	margin-bottom: 5px;
+    background-color: #FF69B4;
+}
+
+hr.divider {
+	width:60%;
+	margin:auto;
+}
+
+h3.center {
+	text-align: center;
+}
+
+.guestbook_entry {
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 393px;
+	background: #fff;
+	border: 1px solid #394615;
+	line-height: 15pt;
+}
+
+.name {
+	margin: 0px !important;
+	padding: 0px !important;
+	display: inline;
+	float: left;
+}
+
+.date {
+	margin: 0px !important;
+	padding: 0px !important;
+	display: inline;
+	float: right;
+	font-size: 8pt;
+}
+/*************************End GUESTBOOK Styles***************************/
+
+div.rsvp {
+	width:550px;
+	margin:auto;
+}
+
+div.rsvp fieldset {
+	padding-top: 20px;
+	border: 1px solid #394615;
+}
+
+div.rsvp legend {
+	margin-left: 10px;
+	padding: 2px 6px;
+	color: #fff;
+	background: #FF8C00;
+	border: 1px solid #394615;
+}
+
+div.rsvp input.radio {
+	margin-left: 60px;
+	margin-right: 5px;
+	vertical-align: top;
+}
+
+div.rsvp input.text{
+	margin-top: 5px;
+	width: 200px;
+}
+
+div.rsvp label {
+	width: 200px;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	display: block
+}
+
+div.rsvp .submit input {
+	width: 80px;
+	margin-left: 210px;
+	color: #fff;
+	background: #FF69B4;
+	border: 2px outset #d7b9c9;
+}
+
+h3.center {
+	text-align: center;
+}
+
+/*************************Footer Styles***************************/
+#footer {
+	clear: both;
+	background: #FF69B4;
+	/*height: 50px;*/
+	border-top: 1px solid #efefef;
+	padding: 13px 15px;
+	line-height: 18px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#footer #altnav {
+	width: 550px;
+	float: right;
+	font-size: 10px;
+	text-align: right;
+}
+
+#footer a {
+	font-family: Georgia, Times, Serif;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #394615;
+	text-decoration: underline;
+}
+/*************************End Footer Styles***************************/
+
+h1 {
+	padding: 15px;
+	/*float: left;*/
+}
